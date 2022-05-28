@@ -4,300 +4,149 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/stylesheet.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 763px)"
-      href="./css/laptop.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 762px)"
-      href="css/navbar.css"
-    />
+    <title>Capstone</title>
+    <link rel="stylesheet" href="styles/stylesheet.css" />
   </head>
-
   <body>
     <header>
-      <nav class="navbar">
-        <ul class="menu">
-          <li class="menu-link">
-            <a id="hello" href="#hello-section">Hello</a>
-          </li>
-          <li class="menu-link"><a href="#portfolio-section">Portfolio</a></li>
-          <li class="menu-link"><a href="#about-section">About</a></li>
-          <li class="menu-link"><a href="#contact-section">Contact</a></li>
-          <li class="Toggle">
-            <img src="media/times.svg" alt="Toggle" />
-          </li>
-          <li class="menu-bottom"></li>
+      <nav class="upper">
+        <ul>
+          <li><img src="/media/fb.svg" alt="fb logo" /></li>
+          <li><img src="/media/tw.svg" alt="tw logo" /></li>
+          <li>English</li>
+          <li>My Page</li>
+          <li>Logout</li>
         </ul>
-        <img
-          class="togglenavbar open"
-          src="media/ic_menu.svg"
-          alt="hamburguer menu icon"
-        />
+      </nav>
+
+      <nav class="second">
+        <div class="Logo">
+          <a href="#"><img src="/media/luna.png" alt="luna" /></a>
+        </div>
+        <ul>
+          <li class="navlinks"><a href="/About.html">About</a></li>
+          <li class="navlinks"><a href="#main-programs">Program</a></li>
+          <li class="navlinks"><a href="#featured">Speakers</a></li>
+          <li class="navlinks"><a href="#part">Partners</a></li>
+          <li class="navlinks">News</li>
+          <li><p id="Buy" class="navlinks">Buy</p></li>
+        </ul>
       </nav>
     </header>
 
-    <main>
-      <section class="headline" id="hello-section">
-        <div class="left">
-          <h1 id="author">
-            Shaheer <br />
-            Chaudry
-          </h1>
-          <p id="bio">
-            Hello! I am a software developer! I can help you build a product,
-            feature or website. Take a look at my work. If you like what you see
-            and have a project you need coded, don’t hesitate and contact me.
+    <section class="Hero">
+      <div class="hamb">
+        <span class="ham"></span>
+        <span class="ham"></span>
+        <span class="ham"></span>
+      </div>
+
+      <h1>
+        Terra Luna 2.0
+        <br />
+        Launch 2022
+      </h1>
+      <p>
+        Terra is a public blockchain protocol with a passionate community
+        <br />
+        and a deep developer talent pool.
+      </p>
+      <p class="date">2022.05.23(MON) - 25(WED)</p>
+      <p class="location">@ National mueseum of Singapore</p>
+    </section>
+
+    <div class="bg2"></div>
+    <div class="bg"></div>
+
+    <section id="main-programs" class="main-program">
+      <h2>Main Progam</h2>
+
+      <div class="line"></div>
+
+      <div class="programs">
+        <div class="program-details">
+          <img src="/media/lect.svg" alt="Lecture" />
+          <p class="program-title">Lecture</p>
+          <p class="program-info">
+            Listen to the speaker
+            <br />
+            from various countries abour the future of Cryptocurrency
           </p>
-          <button id="start-collaboration" type="button">
-            Start collaboration
-          </button>
-        </div>
-        <div class="right"></div>
-      </section>
-
-      <section class="projects" id="portfolio-section">
-        <div id="projects-title">
-          <h1>Projects</h1>
-        </div>
-        <div class="one">
-          <div class="thumbnail"></div>
-          <div class="project-summary">
-            <h2>Project One</h2>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-            <button class="see-project" type="button">
-              See this project
-              <img src="media/Union.png" alt="right-arrow" />
-            </button>
-          </div>
         </div>
 
-        <div class="two">
-          <div class="thumbnail"></div>
-          <div class="project-summary">
-            <h2>Project Two</h2>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-            <button class="see-project" type="button">
-              See this project
-              <img src="media/Union.png" alt="right-arrow" />
-            </button>
-          </div>
-        </div>
-
-        <div class="three">
-          <div class="thumbnail"></div>
-          <div class="project-summary">
-            <h2>Project Three</h2>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-            <button class="see-project" type="button">
-              See this project
-              <img src="media/Union.png" alt="right-arrow" />
-            </button>
-          </div>
-        </div>
-
-        <div class="four">
-          <div class="thumbnail"></div>
-          <div class="project-summary">
-            <h2>Project Four</h2>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-            <button class="see-project" type="button">
-              See this project
-              <img src="media/Union.png" alt="right-arrow" />
-            </button>
-          </div>
-        </div>
-
-        <div class="five">
-          <div class="thumbnail"></div>
-          <div class="project-summary">
-            <h2>Project Five</h2>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-            <button class="see-project" type="button">
-              See this project
-              <img src="media/Union.png" alt="right-arrow" />
-            </button>
-          </div>
-        </div>
-
-        <div class="six">
-          <div class="thumbnail"></div>
-          <div class="project-summary">
-            <h2>Project Six</h2>
-            <ul>
-              <li>HTML/CSS</li>
-              <li>Ruby on Rails</li>
-              <li>Javascript</li>
-            </ul>
-            <button class="see-project" type="button">
-              See this project
-              <img src="media/Union.png" alt="right-arrow" />
-            </button>
-          </div>
-        </div>
-
-        <div id="image-geometry-2"></div>
-        <div id="image-geometry-3"></div>
-        <div id="image-geometry-4"></div>
-        <div id="image-geometry-5"></div>
-      </section>
-
-      <section class="about" id="about-section">
-        <div class="right">
-          <h1>About</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ea eiusmod
+        <div class="program-details">
+          <img src="/media/forum.svg" alt="forum" />
+          <p class="program-title">Forum</p>
+          <p class="program-info">
+            Communicate with leading innovators in the world of WEB3
           </p>
-          <button id="get-my-cv" type="button">
-            Get my CV
-            <img src="media/ic_download.svg" alt="download-icon" />
-          </button>
         </div>
-        <div class="knowledge">
-          <div class="languages">
-            <h2>Languages</h2>
-            <ul>
-              <li>Javascript(ES5/ES6)</li>
-              <li>Ruby</li>
-              <li>HTML</li>
-              <li>CSS</li>
-            </ul>
-          </div>
-          <div class="frameworks">
-            <h2>Frameworks</h2>
-            <ul>
-              <li>Bootstrap</li>
-              <li>Ruby on rails</li>
-              <li>RSpec</li>
-              <li>Capibara</li>
-              <li>Selenium</li>
-            </ul>
-          </div>
-          <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-              <li>Codekit</li>
-              <li>Codepen</li>
-              <li>GitHub</li>
-              <li>GitLab</li>
-              <li>Terminal</li>
-            </ul>
-          </div>
-          <div class="dots-tile"></div>
-        </div>
-      </section>
 
-      <section class="contact-me" id="contact-section">
-        <div class="contact-me-form">
-          <div class="top">
-            <h1>Get started</h1>
-            <p id="form-description">
-              I would love to hear from you, fill the form bellow to get in
-              touch
-            </p>
-          </div>
-          <form
-            class="form"
-            action="https://formspree.io/f/mqknglvd"
-            method="post"
-          >
-            <ul class="form-list">
-              <li id="form-name">
-                <label for="name">Your name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Alan Shore"
-                  maxlength="30"
-                  required
-                />
-              </li>
-              <li id="form-email">
-                <label for="email">Your email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="name@email.com"
-                  required
-                />
-              </li>
-            </ul>
-            <label id="msg-label" for="msg">Message</label>
-            <textarea
-              id="msg"
-              name="message"
-              placeholder="Enter your message here..."
-              cols="32"
-              rows="8"
-              maxlength="500"
-              required
-            ></textarea>
-            <button type="submit" id="submit-form">Start collaboration</button>
-          </form>
+        <div class="program-details">
+          <img src="/media/chain.svg" alt="Blockchain" />
+          <p class="program-title">
+            Block
+            <br />
+            chain
+          </p>
+          <p class="program-info">
+            Get informed about the new developments in the feild of Blockchain
+          </p>
         </div>
-      </section>
 
-      <section class="end">
-        <footer class="footer">
-          <a id="resume" href="#"
-            >Get my Resume
-            <img src="media/Union2.png" alt="new-tab" />
-          </a>
-          <div class="social-networks">
-            <a href="#">
-              <img src="media/ic_stackoverflow.svg" alt="StackOverflow" />
-            </a>
-            <a href="#">
-              <img src="media/ic_github.svg" alt="Github" />
-            </a>
-            <a href="#">
-              <img src="media/ic_twitter.svg" alt="Twitter" />
-            </a>
-            <a href="#">
-              <img src="media/ic_linkedin.svg" alt="Linkedin" />
-            </a>
-            <a href="#">
-              <img src="media/ic_medium.svg" alt="Medium" />
-            </a>
-            <a href="#">
-              <img src="media/ic_angellist.svg" alt="Angelist" />
-            </a>
-          </div>
-        </footer>
-      </section>
-    </main>
+        <div class="program-details">
+          <img src="/media/vote.svg" alt="vote" />
+          <p class="program-title">Voting</p>
+          <p class="program-info">
+            Terra community vote on the future of Terra
+          </p>
+        </div>
+
+        <div class="program-details">
+          <img src="/media/burn.svg" alt="burn" />
+          <p class="program-title">Burn</p>
+          <p class="program-info">
+            Burning of Luna to controll Terra and thus stablising UST
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <button class="summit">Join the Global Summit</button>
+      </div>
+    </section>
+
+    <section id="featured">
+      <h2 class="section-intro" id="speaker-title">Speakers</h2>
+
+      <div id="speakers-grid"></div>
+    </section>
+
+    <div class="part"></div>
+
+    <section class="partners">
+      <h3 id="part" class="Partners">Partners</h3>
+
+      <div class="comp">
+        <img src="/media/mozilla.svg" alt="Mozilla" />
+        <img src="/media/binee.png" alt="binance" />
+        <img src="/media/coinbasee.png" alt="coinbase" />
+        <img src="/media/microsoft.png" alt=" Billy" />
+        <img src="/media/terra.png" alt="Terra" />
+      </div>
+    </section>
+
+    <footer>
+      <img class="foot-logo" src="/media/luna.png" alt="Luna" />
+      <div class="foot-info">
+        <p class="foot-info-one">
+          2022 Creative Something Singapore. No Rights Reserved
+        </p>
+        <p class="mandrin"></p>
+      </div>
+    </footer>
+
+    <script src="/js/speaker.js"></script>
+    <script src="/js/navbar.js"></script>
   </body>
 </html>

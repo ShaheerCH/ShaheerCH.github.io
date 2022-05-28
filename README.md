@@ -1,58 +1,48 @@
-# Portfolio-setup-and-mobile-version-skeleton
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This portfolio is practice for the sake of learning.
+# Terra Luna 2.0 Launch
 
-weblink https://shaheerch.github.io/
+> This is demo website made for a cryptocurrency lauch.
+> Check out a demo explanation about this project here [Live Video Demo Explainer](https://www.loom.com/share/9571466a20f74d42a7950200ed64758f)
 
-<a href="https://shaheerch.github.io/">
-              <img src="media/ss.png" alt="Webshot" />
-            </a>
-<ul>
-
-<li> Add header </li>
-<li>Add bio </li>
-<li>Add Project details </li>
-<li>Add skills </li>
-<li>Add Forms </li>
-<li> Add Social</li>
-<li> Add Media Query </li>
-<li> Web Deployment </li>
-</ul>
 ## Built With
 
 - HTML
 - CSS
-  -> flexbox
+- JavaScript
 
-## Getting Started
+## Live Demo
 
-Clone the repository to use it on your local system.
+[Live Demo Link]()
 
-## Usage
+## Original Design by
 
-View the file through the 'index.html'.
+👤 **Cindy Shin**
+
+- Behance: [@adgio07](https://www.behance.net/adagio07)
 
 ## Authors
 
-👤 **Author**
+👤 **Author1**
 
-- GitHub: [@githubhandle](@ShaheerCH)
+- GitHub: [@ShaheerCH](https://github.com/githubhandle)
 
 ## 🤝 Contributing
 
-<ul>
-<li> @tahseenzahra</li>
-<li> @bobb-Rob </li>
-</ul>
-🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page]().
 
 ## Show your support
 
-Show your support
 Give a ⭐️ if you like this project!
 
-📝 License
-This project is MIT licensed.
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
